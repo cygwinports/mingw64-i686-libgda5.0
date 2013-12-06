@@ -21,7 +21,7 @@ PATCH_URI="
 	5.1.2-bdb.patch
 "
 
-DIFF_EXCLUDES="libgda.h libgda.types"
+DIFF_EXCLUDES="libgda.h libgda.types libgda-virtual.h *.pc"
 
 CYGCONF_ARGS="
 	--disable-static

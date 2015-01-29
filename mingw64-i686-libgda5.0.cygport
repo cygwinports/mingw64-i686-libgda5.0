@@ -35,5 +35,5 @@ CYGCONF_ARGS="
 	--with-mdb
 	--without-mysql
 	--without-oracle
-	--without-postgres
+	--with-postgres=${CROSS_PREFIX}
 "
